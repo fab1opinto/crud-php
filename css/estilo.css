@@ -1,0 +1,13 @@
+#tamanho-container {
+    width: 500px;
+    margin-top: 40px;
+}
+
+.form-group label {
+    padding: 10px 0;
+}
+
+.cadastro {
+    margin-top: 20px;
+    text-align: right;
+}
