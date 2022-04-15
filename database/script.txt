@@ -1,4 +1,4 @@
-database: estoque
+database: crud_estoque
 
 CREATE TABLE estoque (
     id_estoque int AUTO_INCREMENT,
@@ -8,4 +8,3 @@ CREATE TABLE estoque (
     quantidade int not null,
     fornecedor varchar(100) not null,
     PRIMARY KEY (id_estoque))
-)

@@ -37,7 +37,7 @@
 
         <div class="form-group">
             <label>Quantidade</label>
-            <input type="number" class="form-control" name="quantidade" id="" required placeholder="Insira a quantidade de produto">
+            <input type="number" class="form-control" name="quantidade" id="" required placeholder="Insira a quantidade de produto" autocomplete="off">
         </div>
 
         <div class="form-group">
