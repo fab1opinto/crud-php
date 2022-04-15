@@ -8,9 +8,9 @@ $categoria = $_POST['categoria'];
 $quantidade = $_POST['quantidade'];
 $fornecedor = $_POST['fornecedor'];
 
-$sql = "INSERT INTO `estoque`(`nroproduto`, `nomeproduto`, `categoria`, `quantidade`, `fornecedor`) VALUES ('[$nroproduto]','$nomeproduto','$categoria', $quantidade,'$fornecedor')";
+echo $sql = "INSERT INTO `estoque`(`nroproduto`, `nomeproduto`, `categoria`, `quantidade`, `fornecedor`) VALUES ('[$nroproduto]','$nomeproduto','$categoria', $quantidade,'$fornecedor')";
 
-echo $inserir = mysqli_query($conexao,$sql);
+$inserir = mysqli_query($conexao,$sql);
 
 ?>
 
