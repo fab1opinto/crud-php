@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listar Produtos</title>
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--CSS-->
@@ -25,11 +25,34 @@
       <th scope="col">Fornecedor</th>
     </tr>
   </thead>
-  <tbody>
+  
+    
+        <?php
+            include 'conexao.php';
+            $sql = "SELECT * FROM `estoque`";
+            $busca = mysqli_query($conexao, $sql);
+
+            while ($array = mysqli_fetch_array($busca)) {
+                $id_estoque = $array['id_estoque'];
+                $nroproduto = $array['nroproduto'];
+                $nomeproduto = $array['nomeproduto'];
+                $categoria = $array['categoria'];
+                $quantidade = $array['quantidade'];
+                $fornecedor = $array['fornecedor'];
+            
+        ?>
     <tr>
-     <td></td>
+        
+     <td><?php echo $nroproduto ?></td>
+     <td><?php echo $nomeproduto ?></td>
+     <td><?php echo $categoria ?></td>
+     <td><?php echo $quantidade ?></td>
+     <td><?php echo $fornecedo ?></td>
+
+     <?php } ?>
+
     </tr>
-  </tbody>
+  
 </table>
 </div>
 
