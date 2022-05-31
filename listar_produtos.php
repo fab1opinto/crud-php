@@ -27,6 +27,11 @@
 <body>
     
 <div class="container">
+
+<div style="text-align: right">
+<a href="index.php" role="button" class="btn btn-primary">Voltar</a>
+</div>
+
 <h3>Lista de Produtos</h3>
 
 <table class="table">
@@ -72,6 +77,7 @@
     </tr>
   
 </table>
+
 </div>
 
 
