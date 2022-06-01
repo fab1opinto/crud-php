@@ -28,7 +28,7 @@
         <form action="_inserir_categoria.php" method="POST">
             <label>Categoria</label>
             <div class="form-group">
-                <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da categoria">
+                <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da categoria" autocomplete="off">
             </div>
             <div class="botao">
             <button type="submit" class="btn btn-success">Cadastrar</button>
