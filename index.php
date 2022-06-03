@@ -12,6 +12,10 @@
         .container{
             margin-top: 100px;
         }
+
+        #divisao {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -19,6 +23,7 @@
     <div class="container">
 
         <div class="row">
+
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -35,6 +40,26 @@
                         <h5 class="card-title">Lista de Produtos</h5>
                         <p class="card-text">Visualizar, Editar e Excluir os Produtos</p>
                         <a href="listar_produtos.php" class="btn btn-primary">Produtos</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-sm-6" id="divisao">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Adicionar Categoria</h5>
+                        <p class="card-text">Opção para adicionar categoria de produtos</p>
+                        <a href="adicionar_categoria.php" class="btn btn-primary">Cadastrar Categoria</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-sm-6" id="divisao">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Adicionar Fornecedores</h5>
+                        <p class="card-text">Opção para adicionar fornecedores.</p>
+                        <a href="" class="btn btn-primary">Cadastrar Fornecedores</a>
                     </div>
                 </div>
             </div>
