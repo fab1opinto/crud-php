@@ -15,3 +15,9 @@ CREATE TABLE categoria(
 	id_categoria int AUTO_INCREMENT,
     categoria varchar(200) not null,
     PRIMARY KEY(id_categoria))
+
+//Tabela Fornecedor
+CREATE TABLE fornecedor (
+    id_forn int AUTO_INCREMENT,
+    nome_forn varchar(200) not null,
+    PRIMARY KEY(id_forn))
