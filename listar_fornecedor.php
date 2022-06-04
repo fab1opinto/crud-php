@@ -33,12 +33,12 @@
 <a href="index.php" role="button" class="btn btn-primary">Voltar</a>
 </div>
 
-<h3>Lista de Categorias</h3>
+<h3>Lista de Fornecedores</h3>
 
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Nome Categoria</th>
+      <th scope="col">Fornecedor</th>
       <th scope="col">Ação</th>
     </tr>
   </thead>
@@ -46,20 +46,20 @@
     
         <?php
             include 'conexao.php';
-            $sql = "SELECT * FROM `categoria`";
+            $sql = "SELECT * FROM `fornecedor`";
             $busca = mysqli_query($conexao, $sql);
 
             while ($array = mysqli_fetch_array($busca)) {
-                $id_categoria = $array['id_categoria'];
-                $categoria = $array['categoria'];
+                $id_forn = $array['id_forn'];
+                $nome_forn = $array['nome_forn'];
                    
         ?>
     <tr>
         
-     <td><?php echo $categoria ?></td>
+     <td><?php echo $nome_forn ?></td>
      
-     <td><a class="btn btn-warning" style="color: #fff;" href="editar_categoria.php?id=<?php echo $id_categoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a>
-     <a class="btn btn-danger" style="color: #fff;" href="deletar_categoria.php?id=<?php echo $id_categoria ?>" role="button"><i class="far fa-trash-alt"></i>&nbsp;Excluir</a>
+     <td><a class="btn btn-warning" style="color: #fff;" href="editar_fornecedor.php?id=<?php echo $id_categoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a>
+     <a class="btn btn-danger" style="color: #fff;" href="deletar_fornecedor.php?id=<?php echo $id_categoria ?>" role="button"><i class="far fa-trash-alt"></i>&nbsp;Excluir</a>
      </td>
 
      <?php } ?>

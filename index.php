@@ -63,6 +63,27 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-sm-6" id="divisao">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Listar Categoria</h5>
+                        <p class="card-text">Opção para listar categorias.</p>
+                        <a href="listar_categoria.php" class="btn btn-primary">Listar Categoria</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6" id="divisao">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Listar Fornecedor</h5>
+                        <p class="card-text">Opção para listar fornecedores.</p>
+                        <a href="listar_fornecedor.php" class="btn btn-primary">Listar Fornecedor</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
