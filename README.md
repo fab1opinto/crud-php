@@ -1,6 +1,6 @@
 ## CRUD em Bootstrap, PHP, MySQL e Apache.
 <hr>
-Adicionar e Listar Produtos podendo edita-los e excluí-los
+Adicionar e Listar Produtos podendo edita-los e excluí-los<br />
 Adicionar Categorias e Fornecedores podendo atualizá-los e excluí-los
 <hr>
 ### Adicionando, listando, atualizando e excluindo produtos.
