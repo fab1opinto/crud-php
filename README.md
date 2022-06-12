@@ -1,4 +1,8 @@
 ## CRUD em Bootstrap, PHP, MySQL e Apache.
+
+Publicado em um domínio gratuito para testes
+https://crud-php-teste.000webhostapp.com/index.php
+
 <hr>
 Adicionar e Listar Produtos podendo edita-los e excluí-los<br />
 Adicionar Categorias e Fornecedores podendo atualizá-los e excluí-los
